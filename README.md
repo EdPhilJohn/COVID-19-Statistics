@@ -1,18 +1,34 @@
-# Random-Food-Recipe-App
-A Website that generates a random food recipe every time you visit it. 
-![Screenshot (10)](https://user-images.githubusercontent.com/28191442/109333191-208e7300-782d-11eb-8586-4403c58470a4.png)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This was created using Next.js.
-To use this code, download the javascript file and place them in /pages folder of any Next.js project
-You can use this on a React project by importing React component and doing other needed steps to link it to App.js
+## Getting Started
 
-![image](https://user-images.githubusercontent.com/28191442/109335226-c3e08780-782f-11eb-954a-3fd1ce702012.png)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-The Api used here is provided by Spoonacular (https://spoonacular.com/food-api)
-You need to create an API Key to use this, so go to their website and register. 
-Then you can use the API Key and replace in it on the fetch() command in getStaticProps()
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-For Styling Purposes,
-i have used bootswatch (https://bootswatch.com/) and react-bootstrap (https://react-bootstrap.github.io/).
-You can install boostwatch by (npm install bootswatch )
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
