@@ -12,3 +12,4 @@ Then you can use the API Key and replace in it on the fetch() command in getStat
 
 For Styling Purposes,
 i have used bootswatch (https://bootswatch.com/) and react-bootstrap (https://react-bootstrap.github.io/).
+You can install boostwatch by (npm install bootswatch )
