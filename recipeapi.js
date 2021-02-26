@@ -74,7 +74,7 @@ export default function RecipeApi({ data }) {
     </div>)
 }
 export const getStaticProps = async () => {
-    const response = await fetch("https://api.spoonacular.com/recipes/random?number=1&apiKey=3d8eda4b18e141d38502443d6c2c3393")
+    const response = await fetch("https://api.spoonacular.com/recipes/random?number=1&apiKey=Your-API-Key")
     const data = await response.json()
    
     return {
