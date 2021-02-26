@@ -11,6 +11,8 @@ You can start editing the page by modifying `pages/index.js` and `pages/covidapi
 ![image](https://user-images.githubusercontent.com/28191442/109366602-d70c4b00-7861-11eb-9a3b-d39f405b5360.png)
 ## API Used
 Two API's are being used here. First, from https://covid19-api.org/ which retrives all the COVID-19 information. Second, from http://restcountries.eu/ which retrieves the Total Population and National Flag (optional). Both dont require any API Key
+## Styling
+I have use bootswatch and react-bootstrap for this application for styling and graphs
 ## To Run The Application
 run npm run dev
 
